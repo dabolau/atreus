@@ -1,0 +1,35 @@
+name: atreus
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.18.2 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.5
+  # 响应式构建器
+  responsive_builder: ^0.4.3
+  # 打开外部浏览器，拨打电话，发送短信，打开应用程序
+  url_launcher: ^6.1.6
+  # 播放器
+  video_player: ^2.4.7
+  # video_player_web: ^2.0.12
+  # 提示信息
+  oktoast: ^3.3.1
+  # 生成二维码
+  qr_flutter: ^4.0.0
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+  # 本地资源
+  assets:
+    - assets/images/
+    - assets/videos/
