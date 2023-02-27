@@ -31,5 +31,6 @@ flutter:
   uses-material-design: true
   # 本地资源
   assets:
+    - assets/files/
     - assets/images/
     - assets/videos/
